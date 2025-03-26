@@ -26,4 +26,7 @@ public class Horse : Piece
         }
         return false;
     }
+    public override void UseSkill(int targetX, int targetY, GameObject[,] board){
+        return;
+    }
 }

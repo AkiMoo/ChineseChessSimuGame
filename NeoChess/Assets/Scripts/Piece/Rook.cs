@@ -26,4 +26,7 @@ public class Rook : Piece
         }
         return true;
     }
+    public override void UseSkill(int targetX, int targetY, GameObject[,] board){
+        return;
+    }
 }
